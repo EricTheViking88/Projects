@@ -32,3 +32,28 @@
     </fieldset>
   </form>
 </html>
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: purple;
+  color: white;
+}
+
+form {
+  width: 70vw;
+  max-width: 600px;
+  min-width: 300px;
+  margin: auto;
+  padding: auto;
+}
+
+select, .input {
+  display: flex;
+  justify-content: auto;
+}
+
+fieldset, .input {
+  display: flex;
+  justify-content: auto;
+}
