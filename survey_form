@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Suds Haus Survey</title>
+    <link rel="stylesheet" href="styles.css" />
+  <head>
+  <body>
+    <h1 id="title">Suds Haus Survey</h1>
+    <p id="description">Suds Haus customer survey.</p>
+  </body>
+  <form id="survey-form">
+    <input id="name" type="text" placeholder="Name" required><label id="name-label">Name</input>
+    <input id="email" type="email" placeholder="Email" required><label id="email-label">Email</input>
+    <input id="number" type="number" min="4" max="10" placeholder="Number"><label id="number-label">Number</input>
+    <select id="dropdown">
+      <option value="">Choose one</option>
+      <option value="like">Like</option>
+      <option value="dislike">Dislike</optiopn>
+    </select>
+    <p>Please Select one.</p>
+     <form>
+      <label><input type="radio" name="option" value="recomend">Recomend</label>
+      <label><input type="radio" name="option" value="norecomend">No Recomend</label>
+     </form>
+    <textarea placeholder="Comments">Comments
+    </textarea>
+    <button id="submit">Submit Survey</button>
+    <fieldset>
+     <input type="checkbox" value="submit">Returning</input>
+     <input type="checkbox" value="submit">Not Returning</input>
+    </fieldset>
+  </form>
+</html>
