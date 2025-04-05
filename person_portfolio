@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="welcome-section">
+     <h1>Welcome</h1>
+    </div>   
+    <div id="projects">
+    <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form>Projects></a>
+    </div>
+    <header id="nav-bar" class="project-tile">
+     <nav id="navbar"><a id="profile-link" target="_blank" href="#welcome-section"></a></nav>
+     <link href="https://www.freecodecamp.org/EricTheViking" />
+    </header>
+ </body>
+</html>
+
+* {
+  background-color: red;
+}
+@media display only and (width: 600px) {
+
+}
+.header {
+  display: flex;
+}
+#navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
