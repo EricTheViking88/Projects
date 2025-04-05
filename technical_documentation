@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+ <link rel="stylesheet" href="styles.css" media="all"> 
+ <main id="main-doc">
+   <section class="main-section" id="soap_base">
+     <header>Soap Base</header>
+     <p></p>
+     <p></p>
+     <code></code>
+     <ul>
+       <li>
+     </ul>
+   </section>
+   <section class="main-section" id="soap_molds">
+     <header>Soap molds</header>
+     <p></p>
+     <p></p>
+     <code></code>
+     <ul>
+       <li>
+     </ul>
+   </section>
+   <section class="main-section" id="soap_colors">
+     <header>Soap Colors</header>
+     <p></p>
+     <p></p>
+     <code></code>
+     <ul>
+       <li>
+     </ul>
+   </section>
+   <section class="main-section" id="soap_scents">
+     <header>Soap Scents</header>
+     <p></p>
+     <p></p>
+     <code></code>
+     <ul>
+       <li>
+     </ul>
+   </section>
+   <section class="main-section" id="final_product">
+     <header>Final Product</header>
+     <p></p>
+     <p></p>
+     <code></code>
+     <ul>
+       <li>
+     </ul>
+   </section>
+ </main>
+ <body>
+   <nav id="navbar">
+     <header>Basics</header>
+     <a class="nav-link" href="#soap_base">Soap Base</a>
+     <a class="nav-link" href="#soap_molds">Soap Molds</a>
+     <a class="nav-link" href="#soap_colors">Soap Colors</a>
+     <a class="nav-link" href="#soap_scents">Soap Scents</a>
+     <a class="nav-link" href="#final_product">Final Product</a>
+   </nav>  
+ </body>  
+</html>
+
+html {
+  background-color: red;
+}
+
+main {
+  color: #ffffff;
+}
+
+nav {
+  color: #ffffff;
+}
+
+@media {
+  display: flex;
+}
